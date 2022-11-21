@@ -1,5 +1,7 @@
 # blockBot
 
+<a href="https://ibb.co/JymTJHW"><img src="https://i.ibb.co/WPGXJfN/2.png" alt="2" border="0"></a>
+
 Per their official definition balena-blocks are “intelligent, drop-in chunks of functionality built to handle the basics, allowing you to focus on solving the hard problems”.
 
 blockBot is an ongoing implementation of those values in hardware. The role of this project is to provide a playground for robotics prototyping that allows you to focus on developing and experimenting with your idea.
@@ -34,42 +36,20 @@ Ok, enough rambling, let’s get to the fun part, the implementation of these id
 
 # The brick system
 
-# Parts
 
-[Untitled](https://www.notion.so/629ecc59edc243d6a4b02ef3d0db4501)
+# Bill of Materials 
+| Part 	| Seeed SKU 	| Units 	| Unit Price 	| Total Price 	|
+|---	|---	|---	|---	|---	|
+| [Mini Gear Motor](https://www.seeedstudio.com/Gear-reduction-motor-p12-6V-60RPM-p-236.html) 	| 08100005 	| 2 	| 9.00 	| 18.00 	|
+| [Wheels](https://www.seeedstudio.com/Motor-Wheel-p-4121.html) 	| 114090042 	| 2 	| 2.00 	| 4.00 	|
+| [Power Regulator](https://www.seeedstudio.com/Adjustable-Step-Down-DC-DC-Converter-0-8V-18V-3-p-1716.html) 	| 106990005 	| 1 	| 4.50 	| 4.50 	|
+| [Battery Holder](https://www.seeedstudio.com/18650-Battery-Holder-Case-2-Slot-with-Switch-p-4160.html) 	| 114090053 	| 1 	| 1.49 	| 1.49 	|
+| [Grove - I2C Motor Driver (TB6612FNG)](https://www.seeedstudio.com/Grove-I2C-Motor-Driver-TB6612FNG-p-3220.html) 	| 108020103 	| 1 	| 10.98 	| 10.98 	|
+| [Grove - Base Hat for RPi](https://www.seeedstudio.com/Grove-Base-Hat-for-Raspberry-Pi.html?queryID=a34c5fca64bbabe1fc11727c46c018d9&objectID=31&indexName=bazaar_retailer_products) 	| 103030275 	| 1 	| 9.99 	| 9.99 	|
+| [Grove - Ultrasonic Distance Sensor](https://www.seeedstudio.com/Grove-Ultrasonic-Distance-Sensor.html?queryID=e862ca0995704ebf10982cf813a90666&objectID=2281&indexName=bazaar_retailer_products) 	| 101020010 	| 3 	| 3.95 	| 11.85 	|
+| [Grove IMU 9DOF v2.0 - MPU-9250](https://www.seeedstudio.com/Grove-IMU-9DOF-v2-0.html) 	| 101020080 	| 1 	| 14.20 	| 14.20 	|
+| [Raspberry Pi Camera](https://www.seeedstudio.com/Raspberry-Pi-Camera-Module-V2.html) 	| 113990214 	| 1 	| 29.95 	| 29.95 	|
+|  	|  	|  	|  	| 104.96 	|
 
 # Electronics
 
-### Power Delivery
-
-- **TP4056** Battery charger
-- **U3V70F5** 5V Step-Up Power Regulator
-
-### Motor Control
-
-- **Arduino Pro Mini 8Mhz**
-- **TB6612FNG** Motor Driver
-
-# BYOB
-
-Additionally, for a fully functional robot, you will need a SBC and a rechargeable battery.
-
-## SBC
-
-## Batteries
-
-block-robot is designed to use a single 3.7V Li-Po/Li-Ion cell (or multiple balanced cells in parallel). That gives us a few different options:
-
-### 18650 Cells
-
-These are kind of a larger version of the AA batteries, that are rated for 3.7V. They range from 2000mAH to 3500mAh, and you can connect them in parallel as long as all batteries have been fully charged.
-
-These batteries are often used for vapes and e-cigarettes, so if you cannot find them at a local electronics store, you might be able to find them at vape shops.
-
-You can also find them in packs like
-
-[these](https://shop.pimoroni.com/products/lithium-ion-battery-pack?variant=23417820487)
-
-### LiPo Packs
-
-**Pro tip:** USB Powerbanks tend be way cheaper than any of the options above. Plus, you can find them everywhere. Inside every power-bank there is a Li-Po cell waiting for a new life, you just need to crack that case open.
