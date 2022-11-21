@@ -47,7 +47,7 @@ Ok, enough rambling, let’s get to the fun part, the implementation of these id
 | [Grove - I2C Motor Driver (TB6612FNG)](https://www.seeedstudio.com/Grove-I2C-Motor-Driver-TB6612FNG-p-3220.html) 	| 108020103 	| 1 	| 10.98 	| 10.98 	|
 | [Grove - Base Hat for RPi](https://www.seeedstudio.com/Grove-Base-Hat-for-Raspberry-Pi.html?queryID=a34c5fca64bbabe1fc11727c46c018d9&objectID=31&indexName=bazaar_retailer_products) 	| 103030275 	| 1 	| 9.99 	| 9.99 	|
 | [Grove - Ultrasonic Distance Sensor](https://www.seeedstudio.com/Grove-Ultrasonic-Distance-Sensor.html?queryID=e862ca0995704ebf10982cf813a90666&objectID=2281&indexName=bazaar_retailer_products) 	| 101020010 	| 3 	| 3.95 	| 11.85 	|
-| [Grove IMU 9DOF v2.0 - MPU-9250](https://www.seeedstudio.com/Grove-IMU-9DOF-v2-0.html) 	| 101020080 	| 1 	| 14.20 	| 14.20 	|
+| [Grove - IMU 9DOF v2.0 MPU-9250](https://www.seeedstudio.com/Grove-IMU-9DOF-v2-0.html) 	| 101020080 	| 1 	| 14.20 	| 14.20 	|
 | [Raspberry Pi Camera](https://www.seeedstudio.com/Raspberry-Pi-Camera-Module-V2.html) 	| 113990214 	| 1 	| 29.95 	| 29.95 	|
 |  	|  	|  	|  	| 104.96 	|
 
