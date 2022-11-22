@@ -31,7 +31,30 @@ And this answers a question you probably have by now. Why build yet another make
 Ok, enough rambling, let’s get to the fun part, the implementation of these ideas. 
 
 # The brick system
-To Every part this robot is .. a snap-in brick. T
+
+## Description
+
+## Structural Bricks 
+
+## Adapter Bricks 
+
+## Core Bricks
+| Pic 	| Name 	|
+|---	|---	|
+| <img src="https://raw.githubusercontent.com/cristidragomir97/blockBot/main/images/parts/block_1x1_large.png" width=320> 	| 1x1 Large Brick 	|
+| <img src=" https://raw.githubusercontent.com/cristidragomir97/blockBot/main/images/parts/block_1x2_large.png"  width=320> 	| 1x2 Large Brick 	|
+| <img src=" https://raw.githubusercontent.com/cristidragomir97/blockBot/main/images/parts/block_1x3_large.png"  width=320> 	| 1x3 Large Brick 	|
+| <img src=" https://raw.githubusercontent.com/cristidragomir97/blockBot/main/images/parts/block_1x4_large.png"  width=320> 	| 1x4 Large Brick 	|
+| <img src="https://raw.githubusercontent.com/cristidragomir97/blockBot/main/images/parts/block_1x1_small.png" width=320> 	| 1x1 Small Brick 	|
+| <img src=" https://raw.githubusercontent.com/cristidragomir97/blockBot/main/images/parts/block_1x2_small.png"  width=320> 	| 1x2 Small Brick 	|
+| <img src=" https://raw.githubusercontent.com/cristidragomir97/blockBot/main/images/parts/block_1x3_small.png"  width=320> 	| 1x3 Small Brick 	|
+| <img src=" https://raw.githubusercontent.com/cristidragomir97/blockBot/main/images/parts/block_1x4_small.png"  width=320> 	| 1x4 Small Brick 	|
+| <img src=" https://raw.githubusercontent.com/cristidragomir97/blockBot/main/images/parts/block_2x2_large.png"  width=320> 	| 2x2 Large Brick 	|
+| <img src=" https://raw.githubusercontent.com/cristidragomir97/blockBot/main/images/parts/block_2x3_large.png"  width=320> 	| 2x3 Large Brick 	|
+| <img src=" https://raw.githubusercontent.com/cristidragomir97/blockBot/main/images/parts/block_2x4_large.png"  width=320> 	| 2x4 Large Brick 	|
+| <img src=" https://raw.githubusercontent.com/cristidragomir97/blockBot/main/images/parts/block_2x2_small.png"  width=320> 	| 2x2 Small Brick 	|
+| <img src=" https://raw.githubusercontent.com/cristidragomir97/blockBot/main/images/parts/block_2x3_small.png"  width=320> 	| 2x3 Small Brick 	|
+| <img src=" https://raw.githubusercontent.com/cristidragomir97/blockBot/main/images/parts/block_2x4_small.png"  width=320> 	| 2x4 Small Brick 	|
 
 You can find the dwg files 
 
