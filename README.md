@@ -37,24 +37,35 @@ Ok, enough rambling, let’s get to the fun part, the implementation of these id
 ## Structural Bricks 
 
 ## Adapter Bricks 
+| Pic 	| Name 	|
+|---	|---	|
+| <img src="https://raw.githubusercontent.com/cristidragomir97/blockBot/main/images/parts/electronics_rpi_mount.png" width=320> 	| Adapter for Raspberry Pi SBC 	|
+| <img src="https://raw.githubusercontent.com/cristidragomir97/blockBot/main/images/parts/electronics_dual_18650_mount.png"  width=320> 	| Adapter for Dual 18650 Battery Holder 	|
+| <img src="https://raw.githubusercontent.com/cristidragomir97/blockBot/main/images/parts/electronics_dual_18650_mount_with_switch.png"  width=320> 	| Adapter for Dual 18650 Battery Holder with Switch 	|
+| <img src="https://raw.githubusercontent.com/cristidragomir97/blockBot/main/images/parts/electronics_breadboard_mount.png"  width=320> 	| Adapter for Half-Size Breadboard 	|
+| <img src="https://raw.githubusercontent.com/cristidragomir97/blockBot/main/images/parts/electronics_i2c_motor_driver.png"  width=320> 	| Adapter for [Grove I2C Motor Driver](https://www.seeedstudio.com/Grove-I2C-Motor-Driver-TB6612FNG-p-3220.html) 	|
+| <img src="https://raw.githubusercontent.com/cristidragomir97/blockBot/main/images/parts/electronics_MP1584EN_regulator_mount.png"  width=320> 	| Adapter for [Seeed Power Regulator](https://www.seeedstudio.com/Adjustable-Step-Down-DC-DC-Converter-0-8V-18V-3-p-1716.html) 	|
+| <img src="https://raw.githubusercontent.com/cristidragomir97/blockBot/main/images/parts/electronics_sparkfun_scmd_dual_regulator.png"  width=320> 	| Adapter for  [Seeed Power Regulator](https://www.seeedstudio.com/Adjustable-Step-Down-DC-DC-Converter-0-8V-18V-3-p-1716.html) and [Sparkfun SCMD Motor Driver](https://www.sparkfun.com/products/15451) 	|
+| <img src="https://raw.githubusercontent.com/cristidragomir97/blockBot/main/images/parts/sensors_raspicam.png"  width=320> 	| Adapter for [Raspberry Pi Camera](https://www.seeedstudio.com/Raspberry-Pi-Camera-Module-V2.html) 	|
+| <img src="https://raw.githubusercontent.com/cristidragomir97/blockBot/main/images/parts/sensors_triple_ultrasound.png" width=320> 	| Adapter for Triple [Grove - Ultrasonic Distance Sensor](https://www.seeedstudio.com/Grove-Ultrasonic-Distance-Sensor.html?queryID=e862ca0995704ebf10982cf813a90666&objectID=2281&indexName=bazaar_retailer_products) 	|
 
 ## Core Bricks
 | Pic 	| Name 	|
 |---	|---	|
-| <img src="https://raw.githubusercontent.com/cristidragomir97/blockBot/main/images/parts/block_1x1_large.png" width=320> 	| 1x1 Large Brick 	|
-| <img src="https://raw.githubusercontent.com/cristidragomir97/blockBot/main/images/parts/block_1x2_large.png"  width=320> 	| 1x2 Large Brick 	|
-| <img src="https://raw.githubusercontent.com/cristidragomir97/blockBot/main/images/parts/block_1x3_large.png"  width=320> 	| 1x3 Large Brick 	|
-| <img src="https://raw.githubusercontent.com/cristidragomir97/blockBot/main/images/parts/block_1x4_large.png"  width=320> 	| 1x4 Large Brick 	|
-| <img src="https://raw.githubusercontent.com/cristidragomir97/blockBot/main/images/parts/block_1x1_small.png" width=320> 	| 1x1 Small Brick 	|
-| <img src="https://raw.githubusercontent.com/cristidragomir97/blockBot/main/images/parts/block_1x2_small.png"  width=320> 	| 1x2 Small Brick 	|
-| <img src="https://raw.githubusercontent.com/cristidragomir97/blockBot/main/images/parts/block_1x3_small.png"  width=320> 	| 1x3 Small Brick 	|
-| <img src="https://raw.githubusercontent.com/cristidragomir97/blockBot/main/images/parts/block_1x4_small.png"  width=320> 	| 1x4 Small Brick 	|
-| <img src="https://raw.githubusercontent.com/cristidragomir97/blockBot/main/images/parts/block_2x2_large.png"  width=320> 	| 2x2 Large Brick 	|
-| <img src="https://raw.githubusercontent.com/cristidragomir97/blockBot/main/images/parts/block_2x3_large.png"  width=320> 	| 2x3 Large Brick 	|
-| <img src="https://raw.githubusercontent.com/cristidragomir97/blockBot/main/images/parts/block_2x4_large.png"  width=320> 	| 2x4 Large Brick 	|
-| <img src="https://raw.githubusercontent.com/cristidragomir97/blockBot/main/images/parts/block_2x2_small.png"  width=320> 	| 2x2 Small Brick 	|
-| <img src="https://raw.githubusercontent.com/cristidragomir97/blockBot/main/images/parts/block_2x3_small.png"  width=320> 	| 2x3 Small Brick 	|
-| <img src="https://raw.githubusercontent.com/cristidragomir97/blockBot/main/images/parts/block_2x4_small.png"  width=320> 	| 2x4 Small Brick 	|
+| <img src="https://raw.githubusercontent.com/cristidragomir97/blockBot/main/images/parts/block_1x1_large.png" width=240> 	| 1x1 Large Brick 	|
+| <img src="https://raw.githubusercontent.com/cristidragomir97/blockBot/main/images/parts/block_1x2_large.png"  width=240> 	| 1x2 Large Brick 	|
+| <img src="https://raw.githubusercontent.com/cristidragomir97/blockBot/main/images/parts/block_1x3_large.png"  width=240> 	| 1x3 Large Brick 	|
+| <img src="https://raw.githubusercontent.com/cristidragomir97/blockBot/main/images/parts/block_1x4_large.png"  width=240> 	| 1x4 Large Brick 	|
+| <img src="https://raw.githubusercontent.com/cristidragomir97/blockBot/main/images/parts/block_1x1_small.png" width=240> 	| 1x1 Small Brick 	|
+| <img src="https://raw.githubusercontent.com/cristidragomir97/blockBot/main/images/parts/block_1x2_small.png"  width=240> 	| 1x2 Small Brick 	|
+| <img src="https://raw.githubusercontent.com/cristidragomir97/blockBot/main/images/parts/block_1x3_small.png"  width=240> 	| 1x3 Small Brick 	|
+| <img src="https://raw.githubusercontent.com/cristidragomir97/blockBot/main/images/parts/block_1x4_small.png"  width=240> 	| 1x4 Small Brick 	|
+| <img src="https://raw.githubusercontent.com/cristidragomir97/blockBot/main/images/parts/block_2x2_large.png"  width=240> 	| 2x2 Large Brick 	|
+| <img src="https://raw.githubusercontent.com/cristidragomir97/blockBot/main/images/parts/block_2x3_large.png"  width=240> 	| 2x3 Large Brick 	|
+| <img src="https://raw.githubusercontent.com/cristidragomir97/blockBot/main/images/parts/block_2x4_large.png"  width=240> 	| 2x4 Large Brick 	|
+| <img src="https://raw.githubusercontent.com/cristidragomir97/blockBot/main/images/parts/block_2x2_small.png"  width=240> 	| 2x2 Small Brick 	|
+| <img src="https://raw.githubusercontent.com/cristidragomir97/blockBot/main/images/parts/block_2x3_small.png"  width=240> 	| 2x3 Small Brick 	|
+| <img src="https://raw.githubusercontent.com/cristidragomir97/blockBot/main/images/parts/block_2x4_small.png"  width=240> 	| 2x4 Small Brick 	|
 
 You can find the dwg files 
 
