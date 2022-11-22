@@ -30,6 +30,23 @@ And this answers a question you probably have by now. Why build yet another make
 
 Ok, enough rambling, let’s get to the fun part, the implementation of these ideas. 
 
+# Bill of Materials 
+Let's start with the components you'd need to buy to build this robot. In order to keep this as simple and modular as possible, we've decided to base the design on Seeedstudio's Grove system, as it has a huge amount of available components, sensors, actuators, etc, and because of it's solderless design. 
+
+|  	| Part 	| Vendor 	| SKU 	| Units 	| Unit Price 	| Total Price 	|
+|---	|---	|---	|---	|---	|---	|---	|
+| <img src="https://raw.githubusercontent.com/cristidragomir97/blockBot/main/images/components/motor.png"  width=120> 	| [Mini Gear Motor](https://www.seeedstudio.com/Gear-reduction-motor-p12-6V-60RPM-p-236.html) 	| Seeed 	| 08100005 	| 2 	| 9.00 	| 18.00 	|
+| <img src="https://raw.githubusercontent.com/cristidragomir97/blockBot/main/images/components/roata.png" width=120> 	| [Wheels](https://www.seeedstudio.com/Motor-Wheel-p-4121.html) 	| Seeed 	| 114090042 	| 2 	| 2.00 	| 4.00 	|
+| <img src="https://raw.githubusercontent.com/cristidragomir97/blockBot/main/images/components/motor_driver.png" width=120> 	| [Grove - I2C Motor Driver (TB6612FNG)](https://www.seeedstudio.com/Grove-I2C-Motor-Driver-TB6612FNG-p-3220.html) 	| Seeed 	| 108020103 	| 1 	| 10.98 	| 10.98 	|
+| <img src="https://raw.githubusercontent.com/cristidragomir97/blockBot/main/images/components/pihat.png" width=120> 	| [Grove - Base Hat for RPi](https://www.seeedstudio.com/Grove-Base-Hat-for-Raspberry-Pi.html?queryID=a34c5fca64bbabe1fc11727c46c018d9&objectID=31&indexName=bazaar_retailer_products) 	| Seeed 	| 103030275 	| 1 	| 9.99 	| 9.99 	|
+| <img src="https://raw.githubusercontent.com/cristidragomir97/blockBot/main/images/components/regulator.png" width=120> 	| [Power Regulator](https://www.seeedstudio.com/Adjustable-Step-Down-DC-DC-Converter-0-8V-18V-3-p-1716.html) 	| Seeed 	| 106990005 	| 1 	| 4.50 	| 4.50 	|
+| <img src="https://raw.githubusercontent.com/cristidragomir97/blockBot/main/images/components/battery_holder.png" width=120> 	| [Battery Holder](https://www.seeedstudio.com/18650-Battery-Holder-Case-2-Slot-with-Switch-p-4160.html) 	| Seeed 	| 114090053 	| 1 	| 1.49 	| 1.49 	|
+| <img src="https://raw.githubusercontent.com/cristidragomir97/blockBot/main/images/components/ultrasound.png" width=120> 	| [Grove - Ultrasonic Distance Sensor](https://www.seeedstudio.com/Grove-Ultrasonic-Distance-Sensor.html?queryID=e862ca0995704ebf10982cf813a90666&objectID=2281&indexName=bazaar_retailer_products) 	| Seeed 	| 101020010 	| 3 	| 3.95 	| 11.85 	|
+| <img src="https://raw.githubusercontent.com/cristidragomir97/blockBot/main/images/components/imu.png" width=120> 	| [IMU 9DOF v2.0 - MPU-9250](https://www.seeedstudio.com/Grove-IMU-9DOF-v2-0.html) 	| Seeed 	| 101020080 	| 1 	| 14.20 	| 14.20 	|
+| <img src="https://raw.githubusercontent.com/cristidragomir97/blockBot/main/images/components/rpicam.png" width=120> 	| [Raspberry Pi Camera](https://www.seeedstudio.com/Raspberry-Pi-Camera-Module-V2.html) 	| Seeed 	| 113990214 	| 1 	| 29.95 	| 29.95 	|
+| <img src="https://raw.githubusercontent.com/cristidragomir97/blockBot/main/images/components/caster.png" width=120 height=120> 	| [Ball Caster with 3/8″ Metal Ball](https://www.pololu.com/product/951) 	| Pololu 	| 951 	| 1 	| 2.49 	| 2.49 	|
+|  	|  	|  	|  	|  	|  	| 107.45 	|
+
 # The brick system
 
 ## Description
@@ -74,23 +91,4 @@ Ok, enough rambling, let’s get to the fun part, the implementation of these id
 | <img src="https://raw.githubusercontent.com/cristidragomir97/blockBot/main/images/parts/block_2x2_small.png"  width=240> 	| 2x2 Small Brick 	|
 | <img src="https://raw.githubusercontent.com/cristidragomir97/blockBot/main/images/parts/block_2x3_small.png"  width=240> 	| 2x3 Small Brick 	|
 | <img src="https://raw.githubusercontent.com/cristidragomir97/blockBot/main/images/parts/block_2x4_small.png"  width=240> 	| 2x4 Small Brick 	|
-
-You can find the dwg files 
-
-# Bill of Materials 
-|  	| Part 	| Vendor 	| SKU 	| Units 	| Unit Price 	| Total Price 	|
-|---	|---	|---	|---	|---	|---	|---	|
-| <img src="https://raw.githubusercontent.com/cristidragomir97/blockBot/main/images/components/motor.png"  height=120> 	| [Mini Gear Motor](https://www.seeedstudio.com/Gear-reduction-motor-p12-6V-60RPM-p-236.html) 	| Seeed 	| 08100005 	| 2 	| 9.00 	| 18.00 	|
-| <img src="https://raw.githubusercontent.com/cristidragomir97/blockBot/main/images/components/roata.png" height=120> 	| [Wheels](https://www.seeedstudio.com/Motor-Wheel-p-4121.html) 	| Seeed 	| 114090042 	| 2 	| 2.00 	| 4.00 	|
-| <img src="https://raw.githubusercontent.com/cristidragomir97/blockBot/main/images/components/motor_driver.png" height=120> 	| [Grove - I2C Motor Driver (TB6612FNG)](https://www.seeedstudio.com/Grove-I2C-Motor-Driver-TB6612FNG-p-3220.html) 	| Seeed 	| 108020103 	| 1 	| 10.98 	| 10.98 	|
-| <img src="https://raw.githubusercontent.com/cristidragomir97/blockBot/main/images/components/pihat.png" height=120> 	| [Grove - Base Hat for RPi](https://www.seeedstudio.com/Grove-Base-Hat-for-Raspberry-Pi.html?queryID=a34c5fca64bbabe1fc11727c46c018d9&objectID=31&indexName=bazaar_retailer_products) 	| Seeed 	| 103030275 	| 1 	| 9.99 	| 9.99 	|
-| <img src="https://raw.githubusercontent.com/cristidragomir97/blockBot/main/images/components/regulator.png" height=120> 	| [Power Regulator](https://www.seeedstudio.com/Adjustable-Step-Down-DC-DC-Converter-0-8V-18V-3-p-1716.html) 	| Seeed 	| 106990005 	| 1 	| 4.50 	| 4.50 	|
-| <img src="https://raw.githubusercontent.com/cristidragomir97/blockBot/main/images/components/battery_holder.png" height=120> 	| [Battery Holder](https://www.seeedstudio.com/18650-Battery-Holder-Case-2-Slot-with-Switch-p-4160.html) 	| Seeed 	| 114090053 	| 1 	| 1.49 	| 1.49 	|
-| <img src="https://raw.githubusercontent.com/cristidragomir97/blockBot/main/images/components/ultrasound.png" height=120> 	| [Grove - Ultrasonic Distance Sensor](https://www.seeedstudio.com/Grove-Ultrasonic-Distance-Sensor.html?queryID=e862ca0995704ebf10982cf813a90666&objectID=2281&indexName=bazaar_retailer_products) 	| Seeed 	| 101020010 	| 3 	| 3.95 	| 11.85 	|
-| <img src="https://raw.githubusercontent.com/cristidragomir97/blockBot/main/images/components/imu.png" height=120> 	| [IMU 9DOF v2.0 - MPU-9250](https://www.seeedstudio.com/Grove-IMU-9DOF-v2-0.html) 	| Seeed 	| 101020080 	| 1 	| 14.20 	| 14.20 	|
-| <img src="https://raw.githubusercontent.com/cristidragomir97/blockBot/main/images/components/rpicam.png" height=120> 	| [Raspberry Pi Camera](https://www.seeedstudio.com/Raspberry-Pi-Camera-Module-V2.html) 	| Seeed 	| 113990214 	| 1 	| 29.95 	| 29.95 	|
-| <img src="https://raw.githubusercontent.com/cristidragomir97/blockBot/main/images/components/caster.png" width=120 height=120> 	| [Ball Caster with 3/8″ Metal Ball](https://www.pololu.com/product/951) 	| Pololu 	| 951 	| 1 	| 2.49 	| 2.49 	|
-|  	|  	|  	|  	|  	|  	| 107.45 	|
-
-# Electronics
 
