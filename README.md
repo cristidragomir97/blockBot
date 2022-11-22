@@ -47,7 +47,7 @@ You can find the dwg files
 | <img src="https://raw.githubusercontent.com/cristidragomir97/blockBot/main/images/components/ultrasound.png" height=120> 	| [Grove - Ultrasonic Distance Sensor](https://www.seeedstudio.com/Grove-Ultrasonic-Distance-Sensor.html?queryID=e862ca0995704ebf10982cf813a90666&objectID=2281&indexName=bazaar_retailer_products) 	| Seeed 	| 101020010 	| 3 	| 3.95 	| 11.85 	|
 | <img src="https://raw.githubusercontent.com/cristidragomir97/blockBot/main/images/components/imu.png" height=120> 	| [IMU 9DOF v2.0 - MPU-9250](https://www.seeedstudio.com/Grove-IMU-9DOF-v2-0.html) 	| Seeed 	| 101020080 	| 1 	| 14.20 	| 14.20 	|
 | <img src="https://raw.githubusercontent.com/cristidragomir97/blockBot/main/images/components/rpicam.png" height=120> 	| [Raspberry Pi Camera](https://www.seeedstudio.com/Raspberry-Pi-Camera-Module-V2.html) 	| Seeed 	| 113990214 	| 1 	| 29.95 	| 29.95 	|
-| <img src="https://a.pololu-files.com/picture/0J9812.1200.jpg?844e510c967fd60b68baf8789788b153" width=120 height=120> 	| [Ball Caster with 3/8″ Metal Ball](https://www.pololu.com/product/951) 	| Pololu 	| 951 	| 1 	| 2.49 	| 2.49 	|
+| <img src="https://raw.githubusercontent.com/cristidragomir97/blockBot/main/images/components/caster.png" width=120 height=120> 	| [Ball Caster with 3/8″ Metal Ball](https://www.pololu.com/product/951) 	| Pololu 	| 951 	| 1 	| 2.49 	| 2.49 	|
 |  	|  	|  	|  	|  	|  	| 107.45 	|
 
 # Electronics
