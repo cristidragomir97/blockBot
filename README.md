@@ -35,6 +35,14 @@ Ok, enough rambling, let’s get to the fun part, the implementation of these id
 ## Description
 
 ## Structural Bricks 
+| Pic 	| Name 	|
+|---	|---	|
+| <img src="https://raw.githubusercontent.com/cristidragomir97/blockBot/main/images/parts/platform_bottom.png" width=480> 	| Base Platform 	|
+| <img src="https://raw.githubusercontent.com/cristidragomir97/blockBot/main/images/parts/platform_floor.png" width=480> 	| Platform for the upper layer 	|
+| <img src="https://raw.githubusercontent.com/cristidragomir97/blockBot/main/images/parts/block_2x2_spacer.png" width=320> 	|  Layer Spacer Brick 	|
+| <img src="https://raw.githubusercontent.com/cristidragomir97/blockBot/main/images/parts/motor_mount.png" width=320> 	| N20 / Micro Motor Adapter 	|
+| <img src="https://raw.githubusercontent.com/cristidragomir97/blockBot/main/images/parts/motor_mount_cap.png" width=320> 	| Cap for N20 / Micro Motor Adapter 	|
+| <img src="https://raw.githubusercontent.com/cristidragomir97/blockBot/main/images/parts/caster_3_8.png" width=320> 	| Adapter for 3/8 Ball Caster 	|
 
 ## Adapter Bricks 
 | Pic 	| Name 	|
