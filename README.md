@@ -50,6 +50,7 @@ Let's start with the components you'd need to buy to build this robot. In order 
 # The brick system
 
 ## Description
+<img src="https://raw.githubusercontent.com/cristidragomir97/blockBot/main/images/dimensions.png" width=100%>
 
 ## Structural Bricks 
 | Pic 	| Name 	|
