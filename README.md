@@ -44,13 +44,13 @@ Let's start with the components you'd need to buy to build this robot. In order 
 | <img src="https://raw.githubusercontent.com/cristidragomir97/blockBot/main/images/components/ultrasound.png" width=120> 	| [Grove - Ultrasonic Distance Sensor](https://www.seeedstudio.com/Grove-Ultrasonic-Distance-Sensor.html?queryID=e862ca0995704ebf10982cf813a90666&objectID=2281&indexName=bazaar_retailer_products) 	| Seeed 	| 101020010 	| 3 	| 3.95 	| 11.85 	|
 | <img src="https://raw.githubusercontent.com/cristidragomir97/blockBot/main/images/components/imu.png" width=120> 	| [IMU 9DOF v2.0 - MPU-9250](https://www.seeedstudio.com/Grove-IMU-9DOF-v2-0.html) 	| Seeed 	| 101020080 	| 1 	| 14.20 	| 14.20 	|
 | <img src="https://raw.githubusercontent.com/cristidragomir97/blockBot/main/images/components/rpicam.png" width=120> 	| [Raspberry Pi Camera](https://www.seeedstudio.com/Raspberry-Pi-Camera-Module-V2.html) 	| Seeed 	| 113990214 	| 1 	| 29.95 	| 29.95 	|
-| <img src="https://raw.githubusercontent.com/cristidragomir97/blockBot/main/images/components/caster.png" width=120 height=120> 	| [Ball Caster with 3/8″ Metal Ball](https://www.pololu.com/product/951) 	| Pololu 	| 951 	| 1 	| 2.49 	| 2.49 	|
+| <img src="https://raw.githubusercontent.com/cristidragomir97/blockBot/main/images/components/caster.png" width=120> 	| [Ball Caster with 3/8″ Metal Ball](https://www.pololu.com/product/951) 	| Pololu 	| 951 	| 1 	| 2.49 	| 2.49 	|
 |  	|  	|  	|  	|  	|  	| 107.45 	|
 
 # The brick system
 
 ## Description
-<img src="https://raw.githubusercontent.com/cristidragomir97/blockBot/main/images/dimensions.png" width=100%>
+<img src="https://raw.githubusercontent.com/cristidragomir97/blockBot/main/images/template.png" width=100%>
 
 ## Structural Bricks 
 | Pic 	| Name 	|
@@ -74,22 +74,15 @@ Let's start with the components you'd need to buy to build this robot. In order 
 | <img src="https://raw.githubusercontent.com/cristidragomir97/blockBot/main/images/parts/electronics_sparkfun_scmd_dual_regulator.png"  width=320> 	| Adapter for  [Seeed Power Regulator](https://www.seeedstudio.com/Adjustable-Step-Down-DC-DC-Converter-0-8V-18V-3-p-1716.html) and [Sparkfun SCMD Motor Driver](https://www.sparkfun.com/products/15451) 	|
 | <img src="https://raw.githubusercontent.com/cristidragomir97/blockBot/main/images/parts/sensors_raspicam.png"  width=320> 	| Adapter for [Raspberry Pi Camera](https://www.seeedstudio.com/Raspberry-Pi-Camera-Module-V2.html) 	|
 | <img src="https://raw.githubusercontent.com/cristidragomir97/blockBot/main/images/parts/sensors_triple_ultrasound.png" width=320> 	| Adapter for Triple [Grove - Ultrasonic Distance Sensor](https://www.seeedstudio.com/Grove-Ultrasonic-Distance-Sensor.html?queryID=e862ca0995704ebf10982cf813a90666&objectID=2281&indexName=bazaar_retailer_products) 	|
+| <img src="https://raw.githubusercontent.com/cristidragomir97/blockBot/main/images/parts/rplidar.png"  width=320> 	| Adapter for  [Slamtec RPLidar A1 ](https://www.seeedstudio.com/RPLiDAR-A1M8-R6-360-Degree-Laser-Scanner-Kit-12M-Range-p-4785.html) 	|
 
 ## Core Bricks
-| Pic 	| Name 	|
-|---	|---	|
-| <img src="https://raw.githubusercontent.com/cristidragomir97/blockBot/main/images/parts/block_1x1_large.png" width=240> 	| 1x1 Large Brick 	|
-| <img src="https://raw.githubusercontent.com/cristidragomir97/blockBot/main/images/parts/block_1x2_large.png"  width=240> 	| 1x2 Large Brick 	|
-| <img src="https://raw.githubusercontent.com/cristidragomir97/blockBot/main/images/parts/block_1x3_large.png"  width=240> 	| 1x3 Large Brick 	|
-| <img src="https://raw.githubusercontent.com/cristidragomir97/blockBot/main/images/parts/block_1x4_large.png"  width=240> 	| 1x4 Large Brick 	|
-| <img src="https://raw.githubusercontent.com/cristidragomir97/blockBot/main/images/parts/block_1x1_small.png" width=240> 	| 1x1 Small Brick 	|
-| <img src="https://raw.githubusercontent.com/cristidragomir97/blockBot/main/images/parts/block_1x2_small.png"  width=240> 	| 1x2 Small Brick 	|
-| <img src="https://raw.githubusercontent.com/cristidragomir97/blockBot/main/images/parts/block_1x3_small.png"  width=240> 	| 1x3 Small Brick 	|
-| <img src="https://raw.githubusercontent.com/cristidragomir97/blockBot/main/images/parts/block_1x4_small.png"  width=240> 	| 1x4 Small Brick 	|
-| <img src="https://raw.githubusercontent.com/cristidragomir97/blockBot/main/images/parts/block_2x2_large.png"  width=240> 	| 2x2 Large Brick 	|
-| <img src="https://raw.githubusercontent.com/cristidragomir97/blockBot/main/images/parts/block_2x3_large.png"  width=240> 	| 2x3 Large Brick 	|
-| <img src="https://raw.githubusercontent.com/cristidragomir97/blockBot/main/images/parts/block_2x4_large.png"  width=240> 	| 2x4 Large Brick 	|
-| <img src="https://raw.githubusercontent.com/cristidragomir97/blockBot/main/images/parts/block_2x2_small.png"  width=240> 	| 2x2 Small Brick 	|
-| <img src="https://raw.githubusercontent.com/cristidragomir97/blockBot/main/images/parts/block_2x3_small.png"  width=240> 	| 2x3 Small Brick 	|
-| <img src="https://raw.githubusercontent.com/cristidragomir97/blockBot/main/images/parts/block_2x4_small.png"  width=240> 	| 2x4 Small Brick 	|
-
+| Name 	| Small 	| Large  	|
+|---	|---	|---	|
+| 1x1 Block 	| <img src="https://raw.githubusercontent.com/cristidragomir97/blockBot/main/images/parts/block_1x1_small.png " width=240> 	| <img src="https://raw.githubusercontent.com/cristidragomir97/blockBot/main/images/parts/block_1x1_large.png"  width=240> 	|
+| 1x2 Block 	| <img src="https://raw.githubusercontent.com/cristidragomir97/blockBot/main/images/parts/block_1x2_small.png" width=240> 	| <img src="https://raw.githubusercontent.com/cristidragomir97/blockBot/main/images/parts/block_1x2_large.png"   width=240> 	|
+| 1x3 Block 	| <img src="https://raw.githubusercontent.com/cristidragomir97/blockBot/main/images/parts/block_1x3_small.png"   width=240> 	| <img src="https://raw.githubusercontent.com/cristidragomir97/blockBot/main/images/parts/block_1x3_large.png"   width=240> 	|
+| 1x4 Block 	| <img src="https://raw.githubusercontent.com/cristidragomir97/blockBot/main/images/parts/block_1x4_small.png"   width=240> 	| <img src="https://raw.githubusercontent.com/cristidragomir97/blockBot/main/images/parts/block_1x4_large.png"   width=240> 	|
+| 2x2 Block 	| <img src="https://raw.githubusercontent.com/cristidragomir97/blockBot/main/images/parts/block_2x2_small.png" width=240> 	| <img src="https://raw.githubusercontent.com/cristidragomir97/blockBot/main/images/parts/block_2x2_large.png"   width=240> 	|
+| 2x3 Block 	| <img src="https://raw.githubusercontent.com/cristidragomir97/blockBot/main/images/parts/block_2x3_small.png"   width=240> 	| <img src="https://raw.githubusercontent.com/cristidragomir97/blockBot/main/images/parts/block_2x3_large.png"   width=240> 	|
+| 2x4 Block 	| <img src="https://raw.githubusercontent.com/cristidragomir97/blockBot/main/images/parts/block_2x4_small.png"   width=240> 	| <img src="https://raw.githubusercontent.com/cristidragomir97/blockBot/main/images/parts/block_2x4_large.png"   width=240> 	|
